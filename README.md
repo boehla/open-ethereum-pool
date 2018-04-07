@@ -41,7 +41,7 @@ First install  [go-ethereum](https://github.com/ethereum/go-ethereum/wiki/Instal
 
 Clone & compile:
 
-    git clone https://github.com/feeleep75/open-ethereum-pool.git
+    https://github.com/boehla/open-ethereum-pool
     cd open-ethereum-pool
     make
 
