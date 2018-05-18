@@ -121,7 +121,7 @@ func (u *PayoutsProcessor) process() {
 		amountInShannon := big.NewInt(amount)
 
 		ptresh, _ := u.backend.GetTreshold(login)
-		if(ptresh <= 10) {
+		if(ptresh <= u.config.Threshold) {
 			ptresh = u.config.Threshold
 		}
 
